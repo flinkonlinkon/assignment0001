@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body{
+    font-family: "Azeret Mono";
+    /* background-color: #0D1321; */
+}
+
+p{
+    color: rgb(160, 151, 148);
+}
+.navi{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding-top: 20px;
+
+}
+
+.navi button{
+    width: 228px;
+    height: 58px;
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-style: semiBold;
+    border-radius: 10px;
+    font-size: large;
+}
+.card1{
+    background-image: url(B10A1-Challenge-Begins/assets/Hero-bg.png);
+    text-align: center;
+}
+.para{
+    padding: 50px;
+    width: 852px;
+    margin: auto;
+    text-align: center;
+}
+.hading{
+    font-size: xx-large;
+}
+.pic{
+    padding: 20px;
+}
+.btn{
+    width: 228px;
+    height: 58px;
+    color: white;
+    background-color: #0D1321;
+    font-family: "Azeret Mono";
+    font-style: semiBold;
+    border-radius: 10px;
+    font-size: large;
+}
+#bt{
+padding: 20px;
+}
+.card2{
+    height: 1393px;
+    width: 1140px;
+    /* border: 2px solid black; */
+    margin-top: 100px;
+    background-color: #FAFAFB;
+   
+    
+}
+.mag{
+    text-align: center;
+    padding: 20px;
+    gap: 10px;
+}
+.mag h1{
+    padding: 20px;
+}
+.li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    width: 850px;
+    height: 240px;
+    margin: auto;
+
+}
+.li .ng{
+width: 477px;
+padding: 50px;
+height: 220px;
+
+}
+.ko{
+    padding: 50px;
+}
+
+.li .ng h1{
+    padding-bottom: 5px;
+}
+.li .ng p{
+    padding-bottom: 5px;
+}
+
+.li .ng button{
+    width: 228px;
+    background: white;
+    height: 58px;
+    color: #0D1321;
+    font-family: "Azeret Mono";
+    font-style: semiBold;
+    /* border-radius: 10px; */
+    font-size: large;
+    margin-top: 15px;
+}
+.gap{
+    gap: 10px;
+}
+
+.li1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    width: 850px;
+    height: 240px;
+    margin: auto; 
+    
+}
+
+
+
+.li1 .ng1{
+    width: 477px;
+    padding: 50px;
+    height: 220px;
+    
+    }
+    .ko1{
+        padding: 50px;
+    }
+    
+    .li1 .ng1 h1{
+        padding-bottom: 5px;
+    }
+    .li1 .ng1 p{
+        padding-bottom: 5px;
+    }
+    
+    .li1 .ng1 button{
+        width: 228px;
+        background: white;
+        height: 58px;
+        color: #0D1321;
+        font-family: "Azeret Mono";
+        font-style: semiBold;
+        /* border-radius: 10px; */
+        font-size: large;
+        margin-top: 15px;
+    }
+.card3{
+    width: 1140px;
+    height: 777px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.card3 h1{
+    padding-bottom: 10px;
+
+}
+
+.card3 p{
+    padding-bottom: 20px;
+}
+
+.ditles{
+
+    width: 1140px;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.card4{
+    text-align: center;
+    margin: auto;
+}
+.card4 p{
+    width: 852px;
+    height: 52px;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.cards1{
+    width: 364px;
+    height: 300px;
+    background: #FFF6F4;
+    padding-left: 0px;
+}
+
+.cards1 p{
+    width: 284px;
+    height: 52px;
+}
+.last{
+
+    background-image: url(B10A1-Challenge-Begins/assets/handshake.jpg);
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 314px;
+    width: 1140px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.last input{
+    height: 57px;
+    width: 548px;
+    background-color: white;
+    border-radius: 8px;
+}
+.last button{
+    height: 58px;
+    width: 120px;
+    background-color: white;
+    border-radius: 8px;
+    color: #0D1321;
+}
+
+.last h1{
+    padding-bottom: 15px;
+    color: white;
+}
+.last p{
+    padding-bottom: 100px;
+    color: rgb(160, 151, 148);
+}
+
+.cards1 p{
+    color: rgb(160, 151, 148);
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 1440px;
+    margin: auto;
+    justify-items: center;
+    margin-top: 50px;
+    background-color: rgb(247, 248, 248);
+}
+.card2 .all{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+ 
+
+#allcards{
+    position: relative;
+    left: 157px;
+}
+
+#li333{
+    position: relative;
+    top: 302px;
+}
+
+#li222{
+    position: relative;
+    top: 173px;
+}
+
+#li111{
+    position: relative;
+    top: 88px;
+}
